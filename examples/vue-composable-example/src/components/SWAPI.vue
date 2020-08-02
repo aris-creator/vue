@@ -3,8 +3,11 @@
     <p>SWAPI example</p>
     <p>page {{currentPage}} of {{ lastPage }}</p>
     <p>
-      <button @click="prev">prev</button>
+      <button @click="bersihkan">bersihkan</button>
+      <button @click="first">first</button>
       <button @click="next">next</button>
+      <button @click="prev">prev</button>
+      <button @click="last">last</button>
     </p>
     <div v-if="loading">
       loading...

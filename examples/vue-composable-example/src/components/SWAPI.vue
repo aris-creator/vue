@@ -35,7 +35,7 @@ import { ref, watch, isRef } from '@vue/composition-api';
 
 function useSWAPI(r){
   const resource = isRef(r) ? r : ref(r);
-  const ENDPOINT = `https://swapi.co/api/`;  
+  const ENDPOINT = `https://youtube.com/`;  
 
   const items = ref([]);
   const {json , loading, exec, status} = useFetch();

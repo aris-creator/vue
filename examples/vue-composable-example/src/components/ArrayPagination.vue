@@ -6,8 +6,11 @@
       <input name="pageSize" v-model.number="pageSize" type="number">
     </p>
     <p>
-      <button @click="prev">prev</button>
+      <button @click="prev">bersihkan</button>
+      <button @click="first">first</button>
       <button @click="next">next</button>
+      <button @click="prev">prev</button>
+      <button @click="last">last</button>
     </p>
     <ul>
       <li v-for="n in result" :key="n">

@@ -11,8 +11,11 @@
     <div id="app">
       <p>current Id {{id}}</p>
       <p>
+        <button @click="id--">bersihkan</button>
+        <button @click="id++">first</button>
+        <button @click="id--">next</button>
         <button @click="id--">prev</button>
-        <button @click="id++">next</button>
+        <button @click="id--">last</button
       </p>
       <p v-if="loading">
         loading...

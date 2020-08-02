@@ -22,8 +22,8 @@ const required = x => !!x;
 
 export default defineComponent({
   setup() {
-    const name = ref("pikax");
-    const surname = ref("stuff");
+    const name = ref("aris");
+    const surname = ref("prasetiyo");
     const password = ref("123456");
 
     const form = useValidation({

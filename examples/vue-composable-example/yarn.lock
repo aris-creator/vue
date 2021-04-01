@@ -1151,12 +1151,12 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
-"@vue-composable/axios@^1.0.0-dev.32":
-  version "1.0.0-dev.34"
-  resolved "https://registry.yarnpkg.com/@vue-composable/axios/-/axios-1.0.0-dev.34.tgz#55ab4b0d53b0e57c0601d4dfb9841f1d2e62ee85"
-  integrity sha512-dr3PnU+AMQsm8rJWM9tbHM0fVfE3bI282A1OjI3Nc5RGu/tu6vB5+Ygv+LOHjK6eT9SIP2UiCMR6VaWLOUyumg==
+"@vue-composable/axios@^1.0.0-beta.1":
+  version "1.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/@vue-composable/axios/-/axios-1.0.0-beta.21.tgz#725b5346561768105e5d53dc17d3980c26a85f97"
+  integrity sha512-60Cf9UgWLfDTgGDmrrl+kE7mSV3jFA0gIj6XW3srpoo3s8VbkCg6Ekfpm8bjS6Zx45Cp4LVnFnk9/EDZRJZ/Sw==
   dependencies:
-    vue-composable "^1.0.0-alpha.32"
+    vue-composable "^1.0.0-beta.21"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0":
   version "1.0.0"
@@ -1379,6 +1379,11 @@
     vue-template-es2015-compiler "^1.9.0"
   optionalDependencies:
     prettier "^1.18.2"
+
+"@vue/devtools-api@^6.0.0-beta.3":
+  version "6.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.0-beta.7.tgz#1d306613c93b9a837a3776b1b9255502662f850f"
+  integrity sha512-mIfqX8ZF6s2ulelIzfxGk9sFoigpoeK/2/DlWrtBGWfvwaK3kR1P2bxNkZ0LbJeuKHfcRP6hGZtGist7nxUN9A==
 
 "@vue/preload-webpack-plugin@^1.1.0":
   version "1.1.1"
@@ -7889,10 +7894,12 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-composable@^1.0.0-alpha.32, vue-composable@^1.0.0-dev.32:
-  version "1.0.0-dev.34"
-  resolved "https://registry.yarnpkg.com/vue-composable/-/vue-composable-1.0.0-dev.34.tgz#f1c2e17f560be1f9646c80075ee0cb94a5a04129"
-  integrity sha512-UR2CuB1CEgyEomL6rXPuNlgzg6zr3EYjd30DWog8ouiFJAKDFdWdu70gTOYRWk9FRdUjqHOdEzcpX13R2H8AVA==
+vue-composable@^1.0.0-beta.1, vue-composable@^1.0.0-beta.21:
+  version "1.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/vue-composable/-/vue-composable-1.0.0-beta.21.tgz#7fe452835e863aefe62d8e2fab27acbc04677020"
+  integrity sha512-+xmTAT5llXtZNaqFt8jkRvn5OXhmygohtPXJJTpor/XRqXLjHw/18e5EF7GPw6i4fqOFzvVjCvNfl68mOuXEdg==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.3"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
@@ -8178,9 +8185,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^2.1.2:
   version "2.1.2"

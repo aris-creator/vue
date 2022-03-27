@@ -82,7 +82,7 @@
     "jest-websocket-mock": "^2.1.0",
     "lint-staged": "^10.2.11",
     "lodash.camelcase": "^4.3.0",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mock-socket": "^9.0.3",
     "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
